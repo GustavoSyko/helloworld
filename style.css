@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: blue;
+    text-align: center;
+    height: 100vh;
+}
+#container{
+    left:50%;
+    top:50%;
+    margin-left:-100px; /* Metade do valor da Largura */
+    margin-top:-50px; /* Metade da valor da Altura */
+    position:absolute;
+    width:200px; /* Valor da Largura */
+    height:100px; /* Valor da Altura */
+    background:#507701;
+    color:#fff;
+    
+
+}
+
+#oi{
+    border-radius: 8px;
+}
+.ola{
+    border-radius: 9px;
+}
+#btn{
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    padding: 14px 40px;
+    text text-decoration: none;
+  }
